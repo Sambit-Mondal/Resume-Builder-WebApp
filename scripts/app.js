@@ -226,3 +226,9 @@ function previewImage() {
 function printCV() {
     window.print();
 }
+
+// Footer
+const newDate = new Date();
+const year = newDate.getFullYear();
+
+document.querySelector('.footer-date').innerText = year;
